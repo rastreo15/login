@@ -1,0 +1,68 @@
+/* Estilos generales para todos los dispositivos */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Formularios */
+form {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    form input, form button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px) {
+    form {
+        width: 50%;
+        margin: auto;
+    }
+}
